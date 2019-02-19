@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt_row_Site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="site"
+            android:textAlignment="center"
+            android:textColor="@color/rowTextColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_row_Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_row_Site"
+            android:text="username"
+            android:textAlignment="center"
+            android:textColor="@color/rowTextColor"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_row_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_row_Username"
+            android:text="passord"
+            android:textAlignment="center"
+            android:textColor="@color/rowTextColor"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
